@@ -10,5 +10,13 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
+    - name: zmk-for-charybdis
+      url: https://github.com/HeeTuic/zmk-for-charybdis.git
+      revision: master
+      path: modules/zmk-for-charybdis
+    - name: zmk-cannonkeys-keyboards
+      url: https://github.com/cannonkeys/zmk-cannonkeys-keyboards
+      revision: main
+      path: modules/zmk-cannonkeys-keyboards
   self:
     path: config
